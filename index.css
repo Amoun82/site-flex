@@ -1,0 +1,143 @@
+h1
+{
+    color: red;
+    text-align: center;
+}
+
+#conteneur
+{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* menu principale */
+#menuPrincipale
+{
+    background-image: url("/site\ flex/photo/Image20211208133249.jpg");
+    background-size: cover;
+    width: 100%;
+    border: 1px dashed black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#hautDuMenuPrincipale
+{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+#milieuDuMenuPrincipale
+{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 8;
+}
+
+#basDuMenuPrincipale
+{
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
+/* serie de photo avec le titre */
+#photo
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed black;
+    background-color:whitesmoke;
+}
+
+#titreDePhoto
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.rangeePhoto
+{
+    border: 1px solid red;
+}
+
+#premierRangeePhoto
+{
+    display: flex;
+    justify-content: center;
+}
+
+#secondeRangeePhoto
+{
+    display: flex;
+    justify-content: center;
+}
+
+.photo
+{
+    text-align: center;
+    width: 15%;
+}
+
+
+.photoLigne
+{
+    height: 100px ;
+    width: 150px;
+}
+
+
+/* block ordinateur tablette tel et icone violet */
+.rangeeOrdiTabTel
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed black ;
+}
+
+#titreRangeeOrdiTabTel
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rangeePhotoOrdiTabTel
+{
+    border: red 1px solid;
+}
+
+#premierRangeePhotoRangeeOrdiTabTel
+{
+    display: flex;
+    justify-content: center;
+}
+
+#secondeRangeePhotoRangeeOrdiTabTel
+{
+    display: flex;
+    justify-content: center;
+}
+
+.photoRangeeOrdiTabTel
+{
+    text-align: center;
+    width: 15%;
+}
+
+.photoLigneRangeeOrdiTabTel
+{
+    height: 100px ;
+    width: 150px;
+}
